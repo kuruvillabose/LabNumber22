@@ -21,7 +21,7 @@
 			<label>Email:</label> <input type="email" name="email" />
 		</p>
 		<p>
-			<label>Phone Number:</label> <input type="number" name="phonenumber" min="1" max="200" step="1"/>
+			<label>Phone Number:</label> <input type="number" name="phonenumber" />
 		</p>
 		<p>
 			<label>Password:</label> <input type="password" name="password" />

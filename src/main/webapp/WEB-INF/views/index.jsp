@@ -14,6 +14,28 @@
 		
 		<li><a href="/register-user">User Registration</a></li>
 	</ul>
+	
+	<table border="1">
+	<thead>
+		<tr>
+		 <td>Name</td>
+		 <td>Description</td>
+		 <td>Quantity</td>
+		 <td>Price</td>
+		</tr>
+	</thead>
+	<tbody>
+	<c:forEach items="${test }" var="item">
+	<tr> 
+		<td>${item.name }</td>
+		 <td>${item.description }</td>
+		 <td>${item.quantity }</td>
+		 <td>${item.price }</td>
+		 	
+	</tr>
+	</c:forEach>
+	</tbody>
+	</table>
 </body>
 </html>
 
